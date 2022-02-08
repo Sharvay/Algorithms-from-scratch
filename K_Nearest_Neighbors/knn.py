@@ -21,7 +21,7 @@ class KNearestNeighborsClf:
 
     def fit(self,x_train,y_train):
         """
-        Takes training data as input ie.x_train and y_train
+        Takes training data ie.x_train and y_train
         KNearestNeighborsClf.fit() method
         """
 
@@ -34,7 +34,7 @@ class KNearestNeighborsClf:
 
     def predict(self,x_test):
         """
-        Takes Test data as input for predictions considering training data to find the nearest neighbors.
+        Takes Test data for predictions considering training data to find the nearest neighbors.
         Returns numpy array of predictions.
         """
 
@@ -66,7 +66,7 @@ class KNearestNeighborsClf:
 
     def predict_proba(self,x_test):
         """
-        Takes Test data as input for predictions considering training data to find the nearest neighbors.
+        Takes Test data for predictions considering training data to find the nearest neighbors.
         Returns numpy array of predictions.
         """
 
