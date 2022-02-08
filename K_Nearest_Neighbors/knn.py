@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 from scipy import spatial
 from scipy import stats
 from collections import Counter
